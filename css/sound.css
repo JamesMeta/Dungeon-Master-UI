@@ -1,0 +1,10 @@
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+  .button-row .red_button {
+    flex-basis: calc(20% - 10px); /* Adjust width and margin as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+  }

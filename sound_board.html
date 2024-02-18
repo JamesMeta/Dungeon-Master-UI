@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sound Board</title>
+    <link rel="stylesheet" type="text/css" href="css/sound.css">
+  </head>
+  <body>
+    <h1>Sound Board</h1>
+        <div id="buttons">
+            <div class = "button-row">
+            <div id = "wary">
+                <audio id="audioPlayer1" src="sounds/Wary Theme.mp3"></audio>
+                <button class = "red_button" onclick="playAudio('audioPlayer1')" title = "Wary Theme">
+                    <img src = "images/button.png" alt="Button Image">
+                    <span>Wary Theme</span>
+                </button>
+            </div>
+            <div id = "Concussive Boom + Glass">
+                <audio id="audioPlayer2" src="sounds/Concussive Boom + Glass.mp3"></audio>
+                <button class = "red_button" onclick="playAudio('audioPlayer2')" title = "Concussive Boom + Glass">
+                    <img src = "images/button.png" alt="Button Image">
+                    <span>Concussive Boom + Glass</span>
+                </button>
+            </div>
+            <div id = "undefined2">
+                <audio id="audioPlayer3" src="sounds/undefined2.mp3"></audio>
+                <button class = "red_button" onclick="playAudio('audioPlayer3')" title = "undefined2">
+                    <img src = "images/button.png" alt="Button Image">
+                    <span>undefined2</span>
+                </button>
+            </div>
+            <div id = "undefined3">
+                <audio id="audioPlayer4" src="sounds/undefined3.mp3"></audio>
+                <button class = "red_button" onclick="playAudio('audioPlayer4')" title = "undefined3">
+                    <img src = "images/button.png" alt="Button Image">
+                    <span>undefined3</span>
+                </button>
+            </div>
+        </div>
+    
+  </body>
+
+  <script src="js/sound_board.js"></script>
+</html>
