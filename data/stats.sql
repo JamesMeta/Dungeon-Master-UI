@@ -37,7 +37,7 @@ CREATE TABLE public.characters_playable (
 	character_prof_bonus smallint,
 	character_strength smallint,
 	character_dex smallint,
-	character_cons smallint,
+	character_con smallint,
 	character_intel smallint,
 	character_wisdom smallint,
 	character_charisma smallint,
